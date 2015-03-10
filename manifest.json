@@ -1,0 +1,26 @@
+{
+  "bot_id": "mission_839",
+  "title": "Bot for mission 839",
+  "description": "Bot for mission 839",
+  "language": "python",
+  "data_type": "primary data",
+  "identifying_fields": [
+    "Name"
+  ],
+  "company_fields": {
+    "name": "company"
+  },
+  "files": ["scraper.py", "licence_transformer.py"],
+  "transformers": [{
+    "file":  "licence_transformer.py",
+    "data_type": "simple-licence",
+    "identifying_fields": ["company_name"]
+  }],
+  "frequency": "monthly",
+  "publisher": {
+    "name": "FINMA",
+    "url": "https://www.finma.ch",
+    "terms": "Copyright © Swiss Financial Market Supervisory Authority FINMA 2009",
+    "terms_url": "https://www.finma.ch/e/pages/disclaimer.aspx"
+  }
+}
