@@ -11,7 +11,7 @@ import pprint
 
 import io
 
-# this code is copied form here: https://github.com/metaodi/finma-scraper/blob/master/mission_838/scraper.py
+# code copied and adapted from: https://github.com/metaodi/finma-scraper/blob/master/mission_838/scraper.py
 
 def get_rows(content):
     workbook = xlrd.open_workbook(file_contents=content)
