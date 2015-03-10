@@ -8,6 +8,10 @@ while True:
     break
   raw_record = json.loads(line)
 
+  # skip foreign institutions, because we don't have juristiction information for them
+  if 'foreign' in raw_record['Securities dealer type'].lower():
+    continue
+
   licence_record = {
       "source_url": raw_record['source_url'],                             # Required
       "company_name": raw_record['Name'],                                 # Required

@@ -1,7 +1,7 @@
 {
   "bot_id": "mission_839",
-  "title": "Bot for mission 839",
-  "description": "Bot for mission 839",
+  "title": "Switzerland: Banks and securities dealers discontinuing their business activities",
+  "description": "A Turbot which parses a Microsoft Excel export of banks and security dealers that have been operating in Switzerland, but have discontinued their business activities. The export is provided by the Swiss Financial Market Supervisory Authority (FINMA).",
   "language": "python",
   "data_type": "primary data",
   "identifying_fields": [
